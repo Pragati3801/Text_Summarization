@@ -13,7 +13,7 @@ result=""
 def open_pdf():
 
     open_file=filedialog.askopenfilename(
-        initialdir="C:/Users/sinha/OneDrive/proj",
+        initialdir="C:/Users/sinha/OneDrive/proj",#you need to include the path of any directory where the pdf is present.
         title="Summarize pdf",
         filetypes=(
             ("PDF Files","*.pdf"),
